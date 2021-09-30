@@ -27,7 +27,7 @@ This project consists of the following.
 - Improvements
 - Corpus Creation
 
-###Dataset
+### Dataset
 We created box files with coordinates specification, and then, we rectified misidentified characters, adjusted letter tracking, or spacing between characters to eliminate bounding box
 overlapping issues using jTessBoxEditor.
 
@@ -52,7 +52,7 @@ tesstrain.sh --fonts_dir data/fonts \
 ```
 
 
-###Model Training
+### Model Training
 The table illustrates the command line flags used during the training. We have finalized the below
 numbers after conducting several experiments with different values.
 
@@ -83,7 +83,7 @@ OMP_THREAD_LIMIT=8 lstmtraining \
 ```
 
 
-###Model
+### Model
 The architecture of PCR is shown below. As the first step, we detect the file type and convert it to images if the input file is PDF. Then images are binarized and then image character boundary detection techniques are applied to find character boxes. Finally, deep learning modules identify word and line boundaries first then the characters are recognized. Finally using a language model, post-processing the file. 
 
 
@@ -91,7 +91,7 @@ The architecture of PCR is shown below. As the first step, we detect the file ty
 <img src="https://github.com/aaivu/aaivu-tamizhi-net-OCR/blob/master/docs/model.png" width="600">
 </p>
 
-###Improvements
+### Improvements
 We compared the extracted text using our Tamizhi-Net Model with existing Tesseract below.
 
 Tamil
@@ -108,10 +108,10 @@ Sinhala
 <img src="https://github.com/aaivu/aaivu-tamizhi-net-OCR/blob/master/docs/subjective_sinhala-tamizhinet.png" width="600">
 </p>
 
-###Corpus Creation
+### Corpus Creation
  To create a parallel corpus, we used [www.parliament.lk](www.parliament.lk) website to download the required PDFs of all three languages and feed them into our model to get extracted texts. 
 
-###Publication
+### Publication
 [Tamizhi-Net OCR: Creating A Quality Large Scale Tamil-Sinhala-English Parallel Corpus Using
 Deep Learning Based Printed Character Recognition (PCR)](https://arxiv.org/pdf/2109.05952.pdf)
 
