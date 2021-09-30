@@ -32,7 +32,7 @@ We created box files with coordinates specification, and then, we rectified misi
 overlapping issues using jTessBoxEditor.
 
 <p align="center">
-<img src="https://github.com/aaivu/aaivu-machine-trans-eng-sin/blob/master/docs/jTessBoxEditor.png" width="600">
+<img src="https://github.com/aaivu/aaivu-tamizhi-net-OCR/blob/master/docs/jTessBoxEditor.png" width="600">
 </p>
 
 The following instructions will guide to generate TIFF/Box files. 
@@ -88,7 +88,7 @@ The architecture of PCR is shown below. As the first step, we detect the file ty
 
 
 <p align="center">
-<img src="https://github.com/aaivu/aaivu-machine-trans-eng-sin/blob/master/docs/model.png" width="600">
+<img src="https://github.com/aaivu/aaivu-tamizhi-net-OCR/blob/master/docs/model.png" width="600">
 </p>
 
 ###Improvements
@@ -96,16 +96,16 @@ We compared the extracted text using our Tamizhi-Net Model with existing Tessera
 
 Tamil
 <p align="center">
-<img src="https://github.com/aaivu/aaivu-machine-trans-eng-sin/blob/master/docs/subjective_tamil-original.png" width="600">
-<img src="https://github.com/aaivu/aaivu-machine-trans-eng-sin/blob/master/docs/subjective_tamil-tesseract.png" width="600">
-<img src="https://github.com/aaivu/aaivu-machine-trans-eng-sin/blob/master/docs/subjective_tamil-tamizhinet.png" width="600">
+<img src="https://github.com/aaivu/aaivu-tamizhi-net-OCR/blob/master/docs/subjective_tamil-original.png" width="600">
+<img src="https://github.com/aaivu/aaivu-tamizhi-net-OCR/blob/master/docs/subjective_tamil-tesseract.png" width="600">
+<img src="https://github.com/aaivu/aaivu-tamizhi-net-OCR/blob/master/docs/subjective_tamil-tamizhinet.png" width="600">
 </p>
 
 Sinhala
 <p align="center">
-<img src="https://github.com/aaivu/aaivu-machine-trans-eng-sin/blob/master/docs/subjective_sinhala-original.png" width="600">
-<img src="https://github.com/aaivu/aaivu-machine-trans-eng-sin/blob/master/docs/subjective_sinhala-tesseract.png" width="600">
-<img src="https://github.com/aaivu/aaivu-machine-trans-eng-sin/blob/master/docs/subjective_sinhala-tamizhinet.png" width="600">
+<img src="https://github.com/aaivu/aaivu-tamizhi-net-OCR/blob/master/docs/subjective_sinhala-original.png" width="600">
+<img src="https://github.com/aaivu/aaivu-tamizhi-net-OCR/blob/master/docs/subjective_sinhala-tesseract.png" width="600">
+<img src="https://github.com/aaivu/aaivu-tamizhi-net-OCR/blob/master/docs/subjective_sinhala-tamizhinet.png" width="600">
 </p>
 
 ###Corpus Creation
