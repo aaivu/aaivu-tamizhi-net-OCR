@@ -59,8 +59,7 @@ numbers after conducting several experiments with different values.
 | Flag  | Value |
 | ------------- | ------------- |
 | traineddata  | path of traineddata file that contains the unicharset, word dawg, punctuation pattern dawg, number dawg  |
-| model_output   | path of output model files /
-checkpoints  |
+| model_output   | path of output model files / checkpoints  |
 | learning_rate  | 1e-05  |
 | max_iterations  | 5000  |
 | target_error_rate | 0.001 |
