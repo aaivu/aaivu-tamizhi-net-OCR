@@ -1,3 +1,5 @@
+#Author: Charangan Vasantharajan
+
 rm -rf data/finetuned_model/*
 OMP_THREAD_LIMIT=8 lstmtraining \
 	--continue_from data/model/tam.lstm \
