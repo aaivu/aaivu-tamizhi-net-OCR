@@ -1,3 +1,5 @@
+#Author: Charangan Vasantharajan
+
 lstmeval --model data/model/tam.lstm \
   --traineddata data/tessdata/tam.traineddata \
   --eval_listfile data/output/tam.training_files.txt
