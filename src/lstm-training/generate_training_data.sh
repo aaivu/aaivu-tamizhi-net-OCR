@@ -1,3 +1,5 @@
+#Author: Charangan Vasantharajan
+
 rm -rf data/output/*
 data/tesseract/src/training/tesstrain.sh --fonts_dir data/fonts \
 	     --fontlist \
