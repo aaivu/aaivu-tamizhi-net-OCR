@@ -1,3 +1,5 @@
+#Author: Charangan Vasantharajan
+
 lstmtraining \
   --stop_training \
   --continue_from data/finetuned_model/_checkpoint \
