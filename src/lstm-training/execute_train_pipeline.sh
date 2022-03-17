@@ -1,3 +1,5 @@
+#Author: Charangan Vasantharajan
+
 bash generate_training_data.sh
 bash extract_model.sh
 bash evaluate.sh
